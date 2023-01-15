@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+    <head><title>Set server url</title></head>
+    <body>
+        <div>
+            Server should be able to read argument `make` (http://127.0.0.1:3000/?make=http://example.com), and return a json of format: {"short_url": "http://127.0.0.1:3000/AOEU"}
+        </div>
+    </br>
+        <div id="current_server_url"></div>
+
+        <form>
+            <label for="fname">server url:</label><br>
+            <input type="text" id="server_url" name="server_url"><br>
+        </form>
+
+        <button id="save">Save</button>
+        <div id="status"></div>
+
+        <script src="options.js"></script>
+    </body>
+</html>

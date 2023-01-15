@@ -1,0 +1,17 @@
+{
+  "name": "URL shortener",
+  "description": "The title says it all.",
+  "version": "1.0",
+  "manifest_version": 2,
+  "options_page": "options.html",
+  "browser_action": {
+    "default_icon": "logo.png"
+  },
+  "background": {
+    "scripts": ["background.js"],
+    "persistent": false
+  },
+  "permissions": [
+    "storage", "tabs"
+  ]
+}
